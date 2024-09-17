@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 1203px;
+    height: 792px;
+    background: linear-gradient(130deg, #21E8C4 -20.42%, #179B93 -3.13%, #267B87 24.22%, #0F474F 72.75%);
+}
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    gap: 316px;
+    padding: 43px 96px 81px 155px;
+}
+
+.dominant {
+    display: flex;
+    gap: 47px;
+    margin-left: 100px;
+}
+
+.nike-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nike-logo .Nike-h3 {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.item-list {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+}
+
+.item .link {
+    text-decoration: none;
+    color: #ECE2E2;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    letter-spacing: 0.315px;
+    text-transform: capitalize;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.search-glass {
+    display: flex;
+    align-items: center;
+}
+
+.search-glass input {
+    position: relative;
+    padding: 7px 0px 6px 35px;
+    width: 130px;
+    border-radius: 23px;
+    background: #D9D9D9;
+    border: unset;
+}
+
+.search-glass .fa-solid {
+    position: absolute;
+    transform: translateX(10px);
+    color: deepskyblue;
+}
